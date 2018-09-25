@@ -1,0 +1,22 @@
+SECURITY
+
+ROLES
+
+Browser - View only.
+Publisher - Publich and link reports; cannot move or apply security.
+Content Manager - Manage all content in Report Server and apply security.
+Report Builder - VIew report definitions only.
+
++ Item security is inherited from the parent item.
+
++ Applying security to a folder applies the same security levels
+	to child folders and files.
+
+	
+LINKED REPORT
+
++ Cannot change Data Source within a linked report.
+
++ Changes to an original report with effect all linked reports.
+	
+	+ Cannot edit a linked report; must edit the original report.

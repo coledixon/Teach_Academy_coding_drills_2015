@@ -1,0 +1,16 @@
+CHARTS
+
+LINE CHART - BAR CHART - PIE CHART
+
+Line chart - Growth/decline over time
+	VALUES = Y-axis		CATEGORIES = X-axis
+	
+Bar chart - Direct comparison
+	VALUES = X-axis		CATEGORIES = Y-axis
+	
+Pie chart - Percentages of a whole
+-------------
+SPARKLINE; Miniature charts. Intended to show very quick, but easy to scan data.
+
+MAPS; Display spatial data and analytical data.
+	Spatial data = Lines, points, regions, etc.

@@ -1,0 +1,25 @@
+REPORT ELEMENTS
+
++ WHERE
++ WHAT
++ HOW
+
+Where; where is the data for the report?
+What; what is the data for the report?
+How; how will the data be presented?
+
+	WHERE [DATA SOURCE]
+		Machine (server) name
+		Database name
+		Authentication information
+		
+	WHAT [DATA SET]
+		Tables
+		Columns // Rows
+		Conditions
+		Orders
+		
+	HOW [LAYOUT]
+		Fonts // Colours
+		Textual // Graphical
+		Interactivity

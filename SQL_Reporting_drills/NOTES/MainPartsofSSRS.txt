@@ -1,0 +1,8 @@
+THREE MAIN PARTS OF SSRS
+
+1) Server Side - Runs in background. Communicating with databases. Can manage and deliver reports.
+
+2) Report Authoring Application - Report Builder; A free, stand-alone desktop-style application. 
+Aids in creation of simple and complex reports with visualization through graphs, charts, maps, etc.
+
+3) VSM - Viewing, sharing, and managing reports.

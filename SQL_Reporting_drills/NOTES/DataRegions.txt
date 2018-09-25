@@ -1,0 +1,11 @@
+DATA REGIONS
+
+TABLE - MATRIX - LIST
+
+Tablix - Common elements of tables, matrixes, and lists.
+
+
+Table - Columns fixed, rows dynamic.
+Matrix - Both columns and rows are dynamic.
+
+rowguid - Generated, unique ID for a row.
