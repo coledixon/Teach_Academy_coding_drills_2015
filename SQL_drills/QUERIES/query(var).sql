@@ -1,0 +1,6 @@
+GO
+ALTER PROCEDURE [dbo].[GeneralQuery] @TableName NVARCHAR(50)
+AS
+	DECLARE @SQL NVARCHAR(1000)
+	SET @SQL = 'SELECT * FROM' + @TableName
+	EXEC (@SQL)
