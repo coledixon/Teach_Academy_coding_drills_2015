@@ -1,0 +1,44 @@
+img.displayed {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:double;
+  border-radius:10px;
+  border-color:black;
+}
+section.login-form {
+ position: relative;
+ margin: 0 auto;
+ padding: 20px 20px 20px;
+ width: 310px;
+ border:double;
+ border-radius:10px;
+ border-color:red;
+ background-color:grey;
+}
+h1 {
+text-align:center;
+border:solid;
+border-color:black;
+border-radius:4px; 
+background:red;
+font-family:DashleyRegular;
+}
+input {
+ border:inset;
+ border-radius:4px;
+}
+
+footer {
+text-align:center;
+font-style:italic;
+}
+html {
+ background:lightGreen;
+}
+.input-type=text{
+width:600px;
+}
+a {
+ text-weight:bold;
+}

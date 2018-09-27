@@ -1,0 +1,106 @@
+.myMenu {
+	margin:0;
+	padding:0;
+}
+
+h2 {
+	font-size:40px;
+	text-align:left;
+	padding:0 0 0 100px;
+}
+
+blockquote {
+ text-align:left;
+ padding: 0 0 0 150px;
+}
+
+
+img {
+ border:solid;
+ border-radius:11px 11px 0 0;
+ border-width:thicks;
+}
+.myMenu li {
+	list-style:none;
+	float:left;
+	font:12px Arial, Helvetica, sans-serif #111;
+}
+
+.myMenu li a:link, .myMenu li a:visited {
+	display:block;
+	text-decoration:none;
+	background-color:#7b7a9c;
+	padding: 0.5em 2em;
+	margin:0;
+	border-right: 1px solid #fff;
+	color:#111;
+}
+
+.myMenu li a:hover {
+	background-color:#0CF;	
+}
+
+/*style the sub menu*/
+.myMenu li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+.myMenu li ul li {
+	display:inline;
+	float:none;
+}
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+	background-color:#09f;
+	width:auto;
+}
+
+.myMenu li ul li a:hover {
+	background-color:#0CF;	
+}
+
+/*pop out text*/
+
+.horror {
+    color: #888;
+    font-family: nosifer; 
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: #000 1px 1px, #000 2px 2px, #000 3px 3px;
+    position: relative;
+    -moz-transition: all 0.3s ease-out; /* FF3.7+ */
+       -o-transition: all 0.3s ease-out; /* Opera 10.5 */
+  -webkit-transition: all 0.3s ease-out; /* Saf3.2+, Chrome */
+          transition: all 0.3s ease-out;
+}
+
+.horror:hover {
+    color: #990000;
+    text-shadow: #58E 1px 1px, #58E 2px 2px, #58E 3px 3px, #58E 4px 4px, #58E 5px 5px, #58E 6px 6px;
+    left: -6px;
+    top: -6px;
+}
+
+.extruded {
+    color: #888;
+    font-family: De-Walpergens-pica; 
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: #000 1px 1px, #000 2px 2px, #000 3px 3px;
+    position: relative;
+    -moz-transition: all 0.3s ease-out; /* FF3.7+ */
+       -o-transition: all 0.3s ease-out; /* Opera 10.5 */
+  -webkit-transition: all 0.3s ease-out; /* Saf3.2+, Chrome */
+          transition: all 0.3s ease-out;
+}
+
+.extruded:hover {
+    color: #990000;
+    text-shadow: #58E 0 0 1 1px, #58E 0 0 2px 2px, #58E 0 0 3px 3px, #58E 0 0 4px 4px, #58E 0 0 5px 5px, #58E 0 0 6px 6px;
+    left: -6px;
+    top: -6px;
+}

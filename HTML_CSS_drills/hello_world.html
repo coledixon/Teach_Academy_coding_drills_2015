@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<html lang="en">
+<meta charset="utf-8">
+	<title>JavaScript practice</title>
+	
+	<script type="text/javascript"> 
+		function substitute() {
+			var myValue = document.getElementById('myTextBox').value;
+			
+			if (myValue.length == 0) {
+				alert('Please enter a value.');
+				return;
+			}
+			var myTitle = document.getElementById('title');
+			myTitle.innerHTML = myValue;
+		}
+	
+	</script>
+	
+</head>
+
+	<header>
+ 
+	</header>
+ 
+  <body onload="alert('Hello World!')">
+	<h1 id="title">JavaScript practice</h1>
+ 
+ 
+	<input type="text" id="myTextBox" />
+	<input type="submit" value="Click Me" onclick="substitute()" />
+ 
+  </body>
+ 
+<footer>
+
+</footer>
+</html>
